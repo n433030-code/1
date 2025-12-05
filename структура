@@ -1,0 +1,22 @@
+/numerical-linear-algebra-system
+│
+├── /docs
+│   ├── /c4-diagrams
+│   │   ├── system-context.png
+│   │   ├── container-diagram.png
+│   │   └── component-diagram.png
+│   │
+│   └── /api-specification
+│       └── openapi.yaml
+│
+├── /src
+│   └── /structurizr
+│       └── LinearAlgebraModel.java
+│
+├── /scripts
+│   └── generate_docs.sh
+│
+├── /server
+│   └── (сгенерированный код Flask из OpenAPI)
+│
+└── README.md
